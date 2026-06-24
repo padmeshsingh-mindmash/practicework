@@ -9,13 +9,34 @@
     <h1>Contact Form</h1>
     <form action="/submit" method="post">
       <label for="full-name">Full Name:</label><br />
-      <input type="text" id="full-name" required /><br /><br />
+      <input
+        type="text"
+        id="full-name"
+        placeholder="Jack Peter"
+        required
+      /><br /><br />
       <label for="email">Email Address:</label><br />
-      <input type="email" id="email" required /><br /><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="jack123@gmail.com"
+        required
+      /><br /><br />
       <label for="subject">Subject</label><br />
-      <input type="text" id="subject" /><br /><br />
+      <input
+        type="text"
+        id="subject"
+        placeholder="Enter Your Subject"
+        required
+      /><br /><br />
       <label for="message">Your Message</label><br />
-      <textarea id="message"></textarea><br /><br />
+      <textarea
+        id="message"
+        placeholder="Enter Your Message..."
+        maxlength="200"
+        required
+      ></textarea
+      ><br /><br />
       <input type="submit" value="Send Message" />
     </form>
   </body>
