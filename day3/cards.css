@@ -3,33 +3,36 @@ body {
   font-family: "Times New Roman", Times, serif;
   background-color: #f5f5dc;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 40px;
-     border: 1px solid #000000;
-    border-radius: 10px;
-    background-color: white;
-    margin: 20px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  background-color: white;
+  margin: 20px;
 }
 
-.logo img{
-    height: 60px;
-    width: auto;
+.logo img {
+  height: 60px;
+  width: auto;
 }
 .nav-links {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .nav-links a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
+.page-title{
+    text-align: center;
+}
 
 .container {
   display: flex;
@@ -49,8 +52,10 @@ header{
   overflow: hidden;
 }
 .card:hover {
-  transform: translateY(8px);
+  transform: translateY(-8px);
 }
+
+
 
 .basic-price {
   color: #2f88ff;
@@ -64,24 +69,17 @@ header{
   color: #6f00ff;
 }
 
-.basic-price span {
-  color: #000000;
-  font-size: 16px;
-}
-
-.standard-price span {
-  color: #000000;
-  font-size: 16px;
-}
-.premium-price span {
-  color: #000000;
-  font-size: 16px;
+.basic-price span,
+.standard-price span,
+.premium-price span{
+    color: black;
+    font-size: 16px;
 }
 
 .card ul {
   list-style: none;
   padding: 0;
-  margin: 1opx 0;
+  margin: 10px 0;
 }
 .card img {
   width: 100%;
