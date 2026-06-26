@@ -30,8 +30,8 @@ header {
   color: black;
 }
 
-.page-title{
-    text-align: center;
+.page-title {
+  text-align: center;
 }
 
 .container {
@@ -55,8 +55,6 @@ header {
   transform: translateY(-8px);
 }
 
-
-
 .basic-price {
   color: #2f88ff;
 }
@@ -71,9 +69,9 @@ header {
 
 .basic-price span,
 .standard-price span,
-.premium-price span{
-    color: black;
-    font-size: 16px;
+.premium-price span {
+  color: black;
+  font-size: 16px;
 }
 
 .card ul {
